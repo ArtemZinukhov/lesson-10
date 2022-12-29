@@ -1,0 +1,34 @@
+header{
+    background-color:black;
+    }
+    .site-navigation{
+    max-width: 1419px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px ;
+    margin: 0 auto;
+    }
+    .site-navigation ul{
+        display: flex;
+    }
+    .site-navigation ul li  {
+        padding: 0 15px;
+        font-size: 18px;
+    }
+    .site-navigation ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .site-navigation ul li a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+    .page_title {
+        font-size: 48px;
+        width: 100%;
+        max-width: 1419px;
+        min-width: 320px;
+        padding: 0 12px;
+        margin: 24px auto 48px;
+        text-align: center;
+    }

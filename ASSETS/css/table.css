@@ -1,0 +1,41 @@
+.page_title{
+    font-size: 48px;
+    max-width: 1419px;
+    padding: 0 12px;
+    margin: 16px auto 72px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    background-color: bisque ;
+    border:3px solid red;
+
+    
+}
+thead{
+    background-color: rgb(56, 29, 119); 
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+td{
+    border: 1px solid red;
+    padding: 12px;
+}
+.site-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 12px;
+    max-width: 1419px;
+    margin: 0 auto;
+}
+tfoot{
+    background-color: rgb(194, 38, 26); 
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+

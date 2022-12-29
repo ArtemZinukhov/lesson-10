@@ -1,0 +1,81 @@
+.example-list_item{
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+}
+.example-list_item.relative{
+    position: relative;
+}
+.relative-child{
+    font-size: 15px;
+    background: #8bc34a;
+    width: 180px;
+    height: 35px;
+    position: absolute;
+    top:0;
+    
+}
+.example-list_item.absolute{
+    position: absolute;
+    top: 130px;
+    right: 40px;
+}
+.relative-child .test {
+    background-color: red;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.example-list_item-fixed {
+    position: fixed  ;
+    bottom: 90px;
+    right: 30px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 2px; 
+    background: url(../img/icon-phone.png) center/contain no-repeat;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+
+}
+    
+.example-stick{
+    margin: 10px 0px;
+    padding: 22px 67px 55px;
+    background-color: rgb(0 0 0 / 40%);
+    color: white;
+    
+}
+.example-stick li {
+    font-size: 24px;
+    padding: 13px 0 ;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.example-stick ul {
+    height: 260px;
+    width: 75%;
+    margin: 10px auto;
+    background-color: rgb(112, 170, 218);
+    overflow: auto;
+    
+}
+li.item-stick {
+    background-color:gold ;
+    font-size: 30px;
+    font-style: italic;
+    padding: 14px;
+    position: sticky;
+    top: 0px;
+    color: blue;
+}
+
+

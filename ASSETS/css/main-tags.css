@@ -1,0 +1,26 @@
+.tags-table_item{
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.tags-table_item-name{
+padding: 12px;
+background: black;
+min-height: var( --tags-table_item-xl)
+width: 400px;
+font-size: 28px;
+color: white;
+min-width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tags-table_item-description{
+    background: rgb(64, 13, 184);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+}

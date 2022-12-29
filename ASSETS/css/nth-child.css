@@ -1,0 +1,101 @@
+.example{
+    margin-bottom: 60px;
+}
+.child-item {
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.first-child .child-item:first-child {
+    background: red;
+}
+.last-child .child-item:last-child {
+    background: blue;
+}
+.nth-child-4 .child-item:nth-child(4) {
+    background: green;
+}
+.odd .child-item:nth-child(odd){
+    background: rebeccapurple;
+}
+.even .child-item:nth-child(even){
+    background: rgb(207, 71, 89);
+}
+.nth-child-3n .child-item:nth-child(3n) {
+    background: sandybrown;
+}
+.nth-child-3n_4 .child-item:nth-child(3n+4){
+    background:turquoise ;
+}
+.nth-child-n_5 .child-item:nth-child(-n+5){
+    background: rgb(168, 218, 30);
+}
+.nth-child-3n_10 .child-item:nth-child(-3n+10){
+    background: aqua;
+}
+.diapozone .child-item:nth-child(n+3):nth-child(-n+8){
+    background: rgb(66, 66, 107);
+}
+.example-row {
+    margin: 70px auto;
+}
+.dog-card {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    align-self: center;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer;
+}
+.dog-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.dog-discription{
+    font-size: 12px;
+}
+.dog-card:nth-child(3) {
+    width: 150%;
+    background-color: red;
+    height: 600px;
+}
+.dog-card:nth-child(3) .dog-title{
+    font-size: 24px;
+    
+}
+.dog-card:first-child, .dog-card:last-child {
+    background-color: blue;
+    height: 400px;
+}
+.dog-card:nth-child(2n) {
+    width: 125%;
+    background-color:rosybrown;
+    height: 500px;
+}
+.dog-card:hover {
+    width: 175%;
+    background-color: rgb(48, 2, 2);
+    height: 650px;
+}
+.dog-title:hover {
+    font-size: 20px;
+    font-weight: 600;
+    color: yellow;
+}
+.img-fluid {
+    max-width: 186px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 20px;
+}

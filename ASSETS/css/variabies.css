@@ -1,0 +1,12 @@
+:root{
+    --text-color: #830f07;
+    --bg-color:#FFCDD2;
+    --bg-ul-color:#455A64;
+    --section-padding: 90px 0 120px;
+    --s_title-color:#9d800c;
+    --figur-color: #FFFF00;
+    --tags-table_item-xl : 150px;
+    --tags-table_item-lg : 135px;
+    --tags-table_item-md : 115px;
+    --tags-table_item-sm : 80px;
+}

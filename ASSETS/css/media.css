@@ -1,0 +1,103 @@
+/* max-width: 575px
+max-width: 767px
+max-width: 991px
+max-width: 1199px
+max-width: 1470px */
+
+@media only screen and (max-width: 1470px) {
+   .tags-table_item-name {
+    min-height: var( --tags-table_item-lg);
+    font-size: 26px;
+   }
+  }
+  
+
+@media only screen and (max-width: 1199px) {
+  .tags-table_item-name {
+    min-height: var( --tags-table_item-md);
+    font-size: 24px;  
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .tags-table_item {
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .tags-table_item-name {
+   min-width: 100%;
+   width: 100%;
+  }
+ .tags-table_item-description {
+    min-height: var( --tags-table_item-md);
+    font-size: 22px; 
+   } 
+}
+@media only screen and (max-width: 767px) {
+  /* body {
+      background-color: rgb(19, 226, 71);
+    } */
+ 
+  
+}
+
+@media only screen and (max-width: 575.98px) {
+  .tags-table_item-name,
+  .tags-table_item-description {
+    min-height: var(--tags-table__item-xsml);
+    font-size: 16px;
+    }  
+    .site-navigation ul li {
+      padding: 0 10px;
+      font-size: 9px;
+  /* body {
+      background-color: rgb(239, 18, 14);
+    } */
+  }
+}
+
+/* @media only screen and (max-width: 575px) {
+    /* body {
+      background-color: rgb(19, 226, 71);
+    }
+} */ 
+
+
+
+@media only screen and (min-width: 575px) {
+  /* body {
+    background-color: rgb(19, 226, 71);
+  } */
+}
+@media only screen and (min-width: 767px) {
+  /* body {
+    background-color: rgb(19, 226, 71);
+  } */
+}
+@media only screen and (min-width: 991px) {
+  /* body {
+    background-color: rgb(19, 226, 71);
+  } */
+}
+@media only screen and (min-width: 1199px) {
+  /* body {
+    background-color: rgb(19, 226, 71);
+  } */
+}
+@media only screen and (min-width: 1471px) {
+  /* body {
+    background-color: rgb(19, 226, 71);
+  } */
+}
+
+/* min-width: 576px
+min-width: 768px
+min-width: 992px
+min-width: 1200px
+min-width: 1471px */
+  
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .page_title {
+    background: yellow;
+  }
+}
